@@ -4,6 +4,7 @@ import json
 import requests
 
 
+# replace "xxx" to api_key you can get from openweather(https://openweathermap.org/api)
 API_KEY = "xxx"
 api = "http://api.openweathermap.org/data/2.5/weather?units=metric&q={city}&APPID={key}"
 
